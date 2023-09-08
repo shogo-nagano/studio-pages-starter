@@ -5,7 +5,7 @@ export const config: TemplateConfig = {
   stream: {
     $id: "studio-stream-id",
     localization: { locales: ["en"], primary: false },
-    filter: { entityTypes: ["Location"] },
+    filter: { entityTypes: ["location"] },
     fields: ["slug"],
   },
 };
